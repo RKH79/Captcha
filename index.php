@@ -16,9 +16,6 @@
             refreshButton.src = 'Captcha.php?' + Date.now();
         }
     </script>
-    <?php
-        echo password_hash("123456", PASSWORD_DEFAULT);
-        ?>
 </main>
 </body>
 </html>
